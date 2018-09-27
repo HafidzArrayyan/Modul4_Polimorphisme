@@ -9,13 +9,8 @@ package Latihan1_AbstractClass;
  *
  * @author Lenovo
  */
-public abstract class Vehicle {
-    public void function(){
-        System.out.println("Transportation Tools");
-    }
+public class override extends AeroPlan{
     public void fuel(){
-         System.out.println("Fuel");
+     System.out.println("Fuels");
     }
-       
-    public abstract void walk();
 }

@@ -14,9 +14,12 @@ public class AeroPlan extends Vehicle{
         System.out.println("Aeoroplan is Flying");
     }
     public static void main(String[] args) {
-        AeroPlan garuda=new AeroPlan();
-        garuda.function();
-        garuda.fuel();
-        garuda.walk();
+        Vehicle garuda1=new AeroPlan();
+        garuda1.function();
+        garuda1.fuel();
+        garuda1.walk();
+        Vehicle garuda2=new override();
+        garuda2.fuel();
+       
     }
 }
